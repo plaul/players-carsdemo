@@ -8,6 +8,6 @@ class PlayerRepositoryTest {
 
     //@Test
     void fail(){
-        assertEquals(1,0);
+       // assertEquals(1,0);
     }
 }
