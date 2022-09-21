@@ -21,4 +21,9 @@ public class PlayerController {
     Iterable<Player> getPlayers() {
         return  playerRepository.findAll();
     }
+
+    @GetMapping("demo1")
+    String demo1(){
+        return "demo1";
+    }
 }
