@@ -30,4 +30,8 @@ public class PlayerController {
     String demo2(){
         return "demo1";
     }
+    @GetMapping("demo3")
+    String demo3(){
+        return "demo3";
+    }
 }
