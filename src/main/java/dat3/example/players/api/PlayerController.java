@@ -26,12 +26,19 @@ public class PlayerController {
     String demo1(){
         return "demo1";
     }
+
     @GetMapping("demo2")
     String demo2(){
         return "demo1";
     }
+
     @GetMapping("demo3")
     String demo3(){
         return "demo3";
+    }
+
+    @GetMapping("demo4")
+    String demo4(){
+        return "demo4";
     }
 }
